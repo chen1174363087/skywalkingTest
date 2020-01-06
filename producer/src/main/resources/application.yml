@@ -1,0 +1,20 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: producer
+
+  cloud:
+      nacos:
+        discovery:
+          server-addr: 127.0.0.1:8848
+
+feign:
+  hystrix:
+    enabled: false
+  #  client:
+  #    config:
+  #      default:
+  #        connectTimeout: 10000
+  #        readTimeout: 10000
