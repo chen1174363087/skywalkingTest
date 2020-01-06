@@ -17,3 +17,5 @@ feign:
   #      default:
   #        connectTimeout: 10000
   #        readTimeout: 10000
+
+
